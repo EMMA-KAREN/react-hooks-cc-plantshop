@@ -12,7 +12,9 @@
   "scripts": {
     "start": "react-scripts start",
     "server": "json-server --watch db.json -p 6001",
-    "test": "jest --bail"
+    "build": "react-scripts build",
+    "test": "jest --bail",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
