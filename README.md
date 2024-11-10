@@ -58,7 +58,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://helpful-pika-9f007d.netlify.app/) for more information.
+See the section about [deployment](https://glistening-smakager-bb3f96.netlify.app/) for more information.
 
 
 ## Contributing
