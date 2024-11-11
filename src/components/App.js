@@ -26,7 +26,7 @@ function App() {
 
   // Fetch data on load
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://react-hooks-cc-plantshop-5-yxgc.onrender.com/plants")
       .then((response) => {
         if (!response.ok) throw new Error("Network response was not ok");
         return response.json();
@@ -54,7 +54,7 @@ function App() {
 
   // Add new plant: form submission capture and send a POST request
   const handleAddPlant = (newPlant) => {
-    fetch("http://localhost:6001/plants", {
+    fetch("https://react-hooks-cc-plantshop-5-yxgc.onrender.com/plants", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newPlant),
@@ -72,7 +72,7 @@ function App() {
 
   // Delete plant VIA DELETE request:remove it from plants and also filtered
   const handleDeletePlant = (id) => {
-    fetch(`http://localhost:6001/plants/${id}`, { method: "DELETE" })
+    fetch(`https://react-hooks-cc-plantshop-5-yxgc.onrender.com/plants/${id}`, { method: "DELETE" })
       .then(() => {
         setPlants((prevPlants) => prevPlants.filter((plant) => plant.id !== id));
         setFilteredPlants((prevPlants) =>

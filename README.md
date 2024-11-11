@@ -58,7 +58,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://glistening-smakager-bb3f96.netlify.app/) for more information.
+See the section about [deployment](https://enchanting-longma-989e04.netlify.app/) for more information.
+
+## database deployement link
+see Database :https://react-hooks-cc-plantshop-5-yxgc.onrender.com/Plants
 
 
 ## Contributing
