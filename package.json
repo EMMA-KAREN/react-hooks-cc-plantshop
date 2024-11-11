@@ -46,6 +46,13 @@
       "<rootDir>/jest.setup.js"
     ],
     "testEnvironment": "jsdom",
-    "testPathIgnorePatterns": ["/test_suites"]
-  }
+    "testPathIgnorePatterns": [
+      "/test_suites"
+    ]
+  },
+  "description": "A simple plant management app that allows users to add, search, update, and delete plants.",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
